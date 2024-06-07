@@ -64,7 +64,6 @@ class QuestioncMC(Question):
             response = response.lower()
             if response[0] == self.correcr_answer:
                 self.is_correct = True 
-
             break
 
 
